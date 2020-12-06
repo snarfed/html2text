@@ -6,6 +6,8 @@ UNRELEASED
 * Add support for Python 3.9.
 * Fix extra line breaks inside html link text (between '[' and ']')
 * Fix #324: unnecessary spaces around ``<b>``, ``<em>``, and ``strike`` tags.
+* Fix #344: indent ``<ul>`` inside ``<ol>`` three spaces instead of two to comply with CommonMark, GFM, etc.
+
 
 2020.1.16
 =========
